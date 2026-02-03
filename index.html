@@ -10,15 +10,18 @@
     <div class="container">
         <h2>Login</h2>
 
-        <form>
-            <label>Name</label>
-            <input type="text" placeholder="Enter your name">
+        <form onsubmit="handleLogin(event)">
+    <label>Name</label>
+    <input type="text" id="name" placeholder="Enter your name">
 
-            <label>Password</label>
-            <input type="password" placeholder="Enter your password">
+    <label>Password</label>
+    <input type="password" id="password" placeholder="Enter your password">
 
-            <button type="submit">Login</button>
-        </form>
+    <button type="submit">Login</button>
+</form>
+
+<script src="script.js"></script>
+
     </div>
 
 </body>
